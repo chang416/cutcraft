@@ -45,6 +45,7 @@ media/
 *.log
 
 # Session artifacts if someone accidentally invokes CutCraft inside the repository.
+工作區/
 edit/
 成品/
 過程/
