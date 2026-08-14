@@ -23,7 +23,7 @@ Turn raw footage and a conversation into one obvious final video. Keep every pro
 
 ## Project layout
 
-Default root: `~/Movies/CutCraft/`
+Default root: `~/Documents/Codex/CutCraft/` (Finder-visible; keep the installable skill itself under `~/.codex`).
 
 ```text
 CutCraft/

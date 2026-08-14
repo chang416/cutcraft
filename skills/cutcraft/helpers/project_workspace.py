@@ -21,7 +21,10 @@ from pathlib import Path
 from project_state import MANIFEST_NAME, atomic_write_json, initial_state
 
 
-DEFAULT_ROOT = Path.home() / "Movies" / "CutCraft"
+# Keep deliverables Finder-visible. The installable skill itself can live under
+# ~/.codex, but users should not have to browse a hidden system folder for
+# their finished videos or revision files.
+DEFAULT_ROOT = Path.home() / "Documents" / "Codex" / "CutCraft"
 WORK_DIR_NAME = "過程"
 FINAL_DIR_NAME = "成品"
 WORK_SUBDIRECTORIES = (

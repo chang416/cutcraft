@@ -122,7 +122,7 @@ CutCraft inspects and transcribes first, shows the visual choices, then waits fo
 ## Project output
 
 ```text
-~/Movies/CutCraft/<project>/
+~/Documents/Codex/CutCraft/<project>/
 ├── cutcraft.project.json
 ├── 成品/
 │   ├── <project>_final.mp4
