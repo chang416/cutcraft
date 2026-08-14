@@ -1,0 +1,70 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Node / Remotion (installed on demand, not vendored)
+node_modules/
+package-lock.json
+yarn.lock
+.npm/
+
+# Manim render artifacts (when running skills/manim-video scripts locally)
+media/
+*.log
+
+# Session artifacts if someone accidentally invokes CutCraft inside the repository.
+edit/
+成品/
+過程/
+transcripts/
+animations/
+clips_graded/
+clips_preview/
+downloads/
+verify/
+proxies/
+*.analysis.json
+quality_report.json
+quality_report.md
+preview.mp4
+final.mp4
+*_final.mp4
+*_逐字稿.md
+base.mp4
+base_preview.mp4
+master.srt
+takes_packed.md
+edl.json
+project.md

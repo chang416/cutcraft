@@ -1,0 +1,26 @@
+{
+  "name": "cutcraft",
+  "version": "0.4.0",
+  "description": "The complete AI video-editing skill: from raw footage and creative direction to one verified final film.",
+  "author": {
+    "name": "Anson"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CutCraft",
+    "shortDescription": "The full AI editing workflow—from footage to final.",
+    "longDescription": "CutCraft is the production-grade editing skill for people who need more than a transcript, caption file, or rough cut. It inspects footage, asks for all creative choices once with visual previews, makes a reproducible edit, finishes sound and picture, verifies the render, and preserves every revision path—without a browser editor or a folder full of mystery exports.",
+    "developerName": "Anson",
+    "category": "Productivity",
+    "capabilities": [
+      "End-to-end video editing",
+      "Visual creative approval",
+      "Transcript-led precision cuts",
+      "Captions, transitions, effects, music and SFX",
+      "Local or cloud transcription",
+      "Revision-safe project workspaces",
+      "Render quality control and asset provenance"
+    ],
+    "defaultPrompt": "Use $cutcraft:cutcraft to inspect my footage, show every creative choice once with visual previews, then create, verify, and deliver one clearly named final video with an editable revision path."
+  }
+}

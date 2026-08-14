@@ -1,0 +1,73 @@
+{
+  "goal": "",
+  "project_name": "",
+  "platform": "",
+  "aspect": "",
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "fit": "cover"
+  },
+  "target_runtime_s": null,
+  "must_keep": [],
+  "must_cut": [],
+  "order": [],
+  "pace": "",
+  "autonomy": "use approved defaults",
+  "transcription": {
+    "provider": "auto",
+    "cloud_upload_approved": false,
+    "language": "auto",
+    "proper_nouns": []
+  },
+  "subtitles": {
+    "enabled": false,
+    "language": "source",
+    "mode": "normal",
+    "style": "high-contrast-outline",
+    "case": "natural",
+    "font": "Noto Serif TC SemiBold",
+    "single_line": true,
+    "max_width_pct": 82,
+    "margin_pct": 30,
+    "background": "none",
+    "preview_file": "verify/subtitle_style_preview.png",
+    "preview_approved": false
+  },
+  "audio": {
+    "music": false,
+    "mood": "",
+    "ducking": true,
+    "asset_provenance": "",
+    "sfx": [],
+    "voiceover": null
+  },
+  "effects": [],
+  "assets": {
+    "policy": "user-provided-or-licensed",
+    "registry": "asset_registry.json",
+    "requested": []
+  },
+  "transitions": "hard cuts",
+  "humor": {
+    "level": "none",
+    "assets_allowed": false,
+    "avoid": []
+  },
+  "brand": {
+    "palette": [],
+    "font": null
+  },
+  "deliverables": [
+    "<project>_final.mp4",
+    "<project>_逐字稿.md",
+    "<project>.srt"
+  ],
+  "approval": {
+    "approved": false,
+    "approved_at": null,
+    "approved_by": "user",
+    "preview_files": []
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "CutCraft"
+  short_description: "Reproducible conversational video editing with visual choices"
+  default_prompt: "Use $cutcraft to inspect my footage, show all creative choices once, then edit, verify, and deliver the final video with an editable transcript."

@@ -1,0 +1,26 @@
+[project]
+name = "cutcraft"
+version = "0.4.0"
+description = "The complete AI video-editing skill: raw footage, visual creative approval, precision edits, and one verified final film"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = [
+    "requests",
+    "librosa",
+    "matplotlib",
+    "pillow",
+    "numpy",
+]
+
+[project.optional-dependencies]
+animations = ["manim"]
+cn-subtitles = ["jieba", "opencc"]
+local-asr-macos = ["mlx-whisper"]
+local-asr = ["openai-whisper"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = []
